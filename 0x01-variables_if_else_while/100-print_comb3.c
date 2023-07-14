@@ -13,7 +13,7 @@ for (number_right = number_left + 1 ; number_right <= 58; number_right++)
 {
 putchar(number_left);
 putchar(number_right);
-if ((number_left == 57) && (number_right == 57))
+if ((number_left == 57) && (number_right == 58))
 {
 break;
 }

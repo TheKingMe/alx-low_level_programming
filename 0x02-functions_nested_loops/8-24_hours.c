@@ -13,8 +13,12 @@ for (j = 0; j <= 9; j++)
 {
 if (j == 9)
 continue;
+if (j == 4 && i == 2)
+break;
 for (k = 0; k <= 6; k++)
 {
+if (j == 4 && i == 2)
+break;
 if (k == 6)
 continue;
 for (l = 0; l <= 9; l++)

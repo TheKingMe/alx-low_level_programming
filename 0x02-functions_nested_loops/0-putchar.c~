@@ -1,0 +1,11 @@
+#include <stdio.h>
+/**
+*main
+*function
+*end
+*/
+int main(void)
+{
+printF("_putchar");
+return (0);
+}

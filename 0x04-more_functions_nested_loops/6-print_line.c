@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print line - print _
+*print_line - print multiple _ with numers n
 *@n:max
 */
 void print_line(int n)

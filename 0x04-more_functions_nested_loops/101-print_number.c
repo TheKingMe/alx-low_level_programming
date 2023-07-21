@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_number - prints an integer
- * @n: integer 
- */
+*print_number - prints an integer
+*@n: integer
+*/
 void print_number(int n)
 {
 unsigned int m;

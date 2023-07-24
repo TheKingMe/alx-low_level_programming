@@ -13,10 +13,11 @@ sr[i] = s[i];
 i++;
 }
 n = i;
-for (i = n - 1; i >= 0; i--)
+for (i = 0, j = n - 1; i < j; i++, j--)
 {
-s[j] = sr[i];
-j++;
+char temp = s[i];
+s[i] = s[j];
+s[j] = temp;
 }
 s[n] = '\0';
 }

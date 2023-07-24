@@ -5,13 +5,12 @@
 */
 void rev_string(char *s)
 {
-int i = 0, j = 0;
+int i = 0, j = 0, n;
 char *sr = s;
 while (s[i] != '\0')
 {
 i++;
 }
-int n;
 n = i;
 for (i = n - 1; i >= 0; i--)
 {

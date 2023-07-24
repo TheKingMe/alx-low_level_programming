@@ -5,4 +5,5 @@
 */
 void puts2(char *str)
 {
+  print("%s",str);
 }

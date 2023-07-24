@@ -13,7 +13,7 @@ srand(time(NULL));
 sum = 0;
 while (sum <= 2645)
 {
-c = rand() % 128
+c = rand() % 128;
 sum += c;
 putchar(c);
 }

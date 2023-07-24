@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+*_puts - print the char
+*@str: char
+*/
+void _puts(char *str)
+{
+printf("%s\n",str);
+} 

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
 *_strncpy - copy src to dest with n char
 *@dest: string 2

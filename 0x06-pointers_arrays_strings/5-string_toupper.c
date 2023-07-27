@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
 *string_toupper - lower will be upper
 *@str:string
@@ -7,12 +6,10 @@
 */
 char *string_toupper(char *str)
 {
-char *ptr = str;
-while (*ptr++)
+for (i = 0; str[i] != '\0'; i++)
 {
-if (*ptr <= 'z' && *ptr >= 'a')
-ptr = ptr - ('a' - 'A');
-ptr++;
+if (str[i] >= 'a' && str[i] <= 'z')
+str[i] = str[i] - 32;
 }
 return (str);
 }

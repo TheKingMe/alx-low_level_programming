@@ -13,7 +13,7 @@ for (i = d, j = 0; i < d + s && j < s; i++, j++)
 {
 dest[i] = src[j];
 }
-dest[s+d] = '\0';
+dest[s + d] = '\0';
 return (dest);
 }
 

@@ -8,7 +8,7 @@
 char *string_toupper(char *str)
 {
 char *ptr = str;
- while (*ptr++)
+while (*ptr++)
 {
 if (*ptr <= 'z' && *ptr >= 'a')
 ptr = ptr - ('a' - 'A');

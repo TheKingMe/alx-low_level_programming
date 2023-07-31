@@ -17,7 +17,7 @@ if (haystack[i + j] != needle[j])
 break;
 }
 if (!needle[j])
-return (needle);
+return (&haystack[i]);
 }
 return (NULL);
 }

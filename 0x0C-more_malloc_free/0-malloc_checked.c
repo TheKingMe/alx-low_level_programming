@@ -10,7 +10,7 @@ void *s;
 s = malloc(b);
 if (s == NULL)
 {
-return (98);
+exit (98);
 }
 return (s);
 }

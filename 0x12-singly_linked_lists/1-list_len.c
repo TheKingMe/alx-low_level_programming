@@ -11,6 +11,6 @@ n = 0;
 while (h != NULL)
 {
 h = h->next;
-nelem++;
+n++;
 }
 return (n);

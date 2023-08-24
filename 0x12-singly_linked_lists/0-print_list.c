@@ -6,18 +6,19 @@
 */
 size_t print_list(const list_t *h)
 {
-if (h->str == NULL)
-{
-write(1, "[0] (nil)", 9);
-}
 int i;
 int j = 0;
 while (next[j])
 {
 for (i = 0; i <= h->len; i++)
 {
-_putchar(h->str[i]);
+if (h->str == NULL)
+{
+printf("[0] (nil)\n");
+count++;
 }
+else
+printf("[%d] %s\n");
 j++;
 }
 return (j);

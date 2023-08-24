@@ -6,20 +6,16 @@
 */
 size_t print_list(const list_t *h)
 {
-int i;
-int j = 0;
-while (next[j])
-{
-for (i = 0; i <= h->len; i++)
+  size_ t n;
+n = 0;
+while (h != NULL)
 {
 if (h->str == NULL)
-{
-printf("[0] (nil)\n");
-count++;
-}
+printf("[%d] %s\n", 0, "(nil)");
 else
-printf("[%d] %s\n");
-j++;
+printf("[%d] %s\n", h->len, h->str);
+h = h->next;
+n++;
 }
-return (j);
+return (n);
 }

@@ -1,4 +1,4 @@
-#ifndef LISTST_H
+#ifndef LISTS_H
 #define LISTS_H
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,5 +17,4 @@ unsigned int len;
 struct list_s *next;
 } list_t;
 size_t print_list(const list_t *h);
-void _write(char c);
 #endif

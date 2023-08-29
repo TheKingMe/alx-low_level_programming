@@ -14,7 +14,5 @@ printf("%d\n", h->n);
 h = h->next;
 m++;
 }
-if (m == 0)
-printf("[%d] %s\n", 0, "(nil)");
 return (m);
 }

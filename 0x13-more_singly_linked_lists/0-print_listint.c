@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-*print_list - printf a dtring in structure
+*print_listint - printf a dtring in structure
 *@h: The structure
 *Return: the number of nodes
 */

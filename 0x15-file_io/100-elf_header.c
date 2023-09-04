@@ -251,7 +251,7 @@ void close_elf(int elf)
 }
 
 /**
- * main - Displays the information contained 
+ * main - Displays the information contained
  * @argc: The number of arguments
  * @argv: An array of pointers to the arguments.
  * Return: 0 on success.
